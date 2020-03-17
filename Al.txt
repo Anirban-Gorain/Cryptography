@@ -1,0 +1,26 @@
+CRIPTOGRAPHY ALGORITHUM.
+-------------------------------------------------------------
+[
+STARTING-DATE: 22/12/2019.
+]
+START
+------------------------------------
+STEP 1 : Take user choice Encryption or Decryption. If Decryption then go STEP 11. If Encryption then go the STEP 3 if USER can’t enter both the values then  go STEP 2 .
+STEP 2 : Show eroor message  and close the program .
+STEP 3 : Take Encryption’s data and store it in a array.
+STEP 4 :  Take is user’s key and and store it in a array.
+STEP 8 : Perform bitwise XOR between every chracter of Encryption's value and key and put the result on particular Encryption's value's array.
+STEP 9 : Put the encryption's data in a file.
+STEP 10 : Show it "Your encryption copmplete. Must remember key if you lost your key you can't decrypt your data."
+ STEP 11 : Show two message Decrypt Data from file or enter data manualy if Decrypt Data from file then go Step 12, if enter data manualy then go to teh STEP 16.
+STEP 12 : Show "Enter your Encryppted value";
+STEP 13 : Show "Enter your key (Remember! if you enter wrong key you get a wrong value.)".
+STEP 14 : Perform bitwise XOR between every chracter of Encrypted value and key and print on the same time.
+STEP 15 : show "DONE".
+STEP 16: Show message "Enter your key" and store it.
+STEP 17: Get data from encrypted file one by one and store in a variable and perform bitwise XOR between it variable and key and print same time.
+STEP 18:  show "Decryption Complete".
+STEP 19: Show "Thank You".
+STEP 20: Close program.
+----------------------------------------------
+FINISH
