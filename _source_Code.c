@@ -57,6 +57,7 @@ int main(void)
 	else
 	{
 		printf("\n\'%c\', It is wrong input an wrong value, You should read caerfully message then enter a proper keyword.", _user_Choice);
+		getch();
 	}
 	return 0;
 }
@@ -118,6 +119,7 @@ int _decryption_Genrator(void)
 		if (_file_Pointer == NULL)
 		{
 			printf("\nFile not found, Coppy data from screen and use, Or make a file \'Encryption_Data.txt\' on over there where have this software.");
+			getch();
 		}
 		printf("\nEnter you key:");
 		fflush(stdin);
@@ -178,6 +180,7 @@ int _decryption_Genrator(void)
 	{
 		printf("Yout enter a wrong value, Read every message caerfully outherwise  you can lost your data.");
 		Beep(1000, 900);
+		getch();
 	}
 
 	return 0;
